@@ -213,3 +213,5 @@ app_license = "MIT"
 # auth_hooks = [
 # 	"gatepass.auth.validate"
 # ]
+fixtures = ["Workflow", "Workflow State", "Currency", "Email Template",
+            "Role", "Module Def", "Module Profile", "Custom DocPerm", "System Settings", "Navbar Settings", "Workspace","Client Script","Custom HTML Block","Server Script"]

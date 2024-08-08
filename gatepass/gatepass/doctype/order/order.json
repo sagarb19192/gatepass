@@ -1,0 +1,89 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-08-08 12:11:46.819135",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "employee",
+  "column_break_t9eq3",
+  "date",
+  "section_break_5fist",
+  "item",
+  "section_break_ah7oz",
+  "status",
+  "column_break_oekfu",
+  "gatepass_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "employee",
+   "fieldtype": "Data",
+   "label": "Employee"
+  },
+  {
+   "fieldname": "item",
+   "fieldtype": "Table",
+   "label": "Item",
+   "options": "Order Items"
+  },
+  {
+   "fieldname": "date",
+   "fieldtype": "Datetime",
+   "label": "Date"
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "label": "Status",
+   "options": "Approved\nRejected\nCancelled"
+  },
+  {
+   "fieldname": "gatepass_id",
+   "fieldtype": "Data",
+   "label": "Gatepass ID"
+  },
+  {
+   "fieldname": "column_break_t9eq3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_5fist",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_ah7oz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_oekfu",
+   "fieldtype": "Column Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-08-08 12:25:38.719034",
+ "modified_by": "Administrator",
+ "module": "Gatepass",
+ "name": "Order",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
